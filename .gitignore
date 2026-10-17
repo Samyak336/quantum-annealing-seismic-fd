@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Files the upstream notebooks write into notebooks/ when run
+notebooks/*.png
+notebooks/*.pdf
+notebooks/*.txt
+
+# Minor-embedding caches written by core/QUBO_solvers.py in D-Wave QPU mode
+*_minior_embedding_*.npy
