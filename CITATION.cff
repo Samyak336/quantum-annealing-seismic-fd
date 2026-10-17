@@ -1,0 +1,50 @@
+cff-version: 1.2.0
+message: >-
+  If you use this code, please cite it as below. Please also cite
+  Wen & Wang (2025), whose method and solver code this work builds on.
+title: >-
+  Quantum annealing for staggered-grid finite-difference coefficient
+  optimisation: reproducibility, sensitivity, and extensions
+authors:
+  - family-names: Ajmera
+    given-names: Samyak
+    affiliation: Indian Institute of Technology Roorkee
+  - family-names: Patel
+    given-names: Pratham
+    affiliation: Indian Institute of Technology Roorkee
+version: 1.0.0
+date-released: 2026-10-17
+repository-code: "https://github.com/Samyak336/quantum-annealing-seismic-fd"
+license: MIT
+keywords:
+  - quantum annealing
+  - QUBO
+  - simulated annealing
+  - finite-difference methods
+  - seismic wave modelling
+  - numerical dispersion
+references:
+  - type: article
+    authors:
+      - family-names: Wen
+        given-names: Xixiang
+      - family-names: Wang
+        given-names: Yanfei
+    title: Seismic Wave Propagation Simulation With Quantum Computing
+    journal: "Journal of Geophysical Research: Machine Learning and Computation"
+    volume: 2
+    issue: 2
+    year: 2025
+    doi: 10.1029/2024JH000473
+  - type: software
+    authors:
+      - family-names: Wen
+        given-names: Xixiang
+      - family-names: Wang
+        given-names: Yanfei
+    title: "Code for: Seismic wave propagation simulation with quantum computing"
+    publisher:
+      name: Zenodo
+    year: 2024
+    doi: 10.5281/zenodo.14868887
+    license: CC-BY-4.0
